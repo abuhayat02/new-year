@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.contant-margin{
+    margin: 6px auto;
+}
+.head{
+    max-width: 1200px;
+    /* max-height: 100vh; */
+    height: 600px;
+}
+.header-baner{
+    text-align: center;
+    display: flex;
+    font-family: "Merriweather", serif;
+    color: #FFFFFF;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    /* padding: 20px;
+    margin: 20px; */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image:  linear-gradient(#070211, #faf9fd06),url("../images/Banner\ Image.png");
+}
+.main-layout{
+    max-width: 1200px;
+    margin: auto;
+}
+.header-baner .new-year-title{
+    width: 50%;
+    font-size: 55px;
+    margin:10px auto;
+}
+.header-baner .title-head{
+    font-size: 25px;
+}
+.co-width{
+    max-width: 1200px;
+    margin: 0px auto;
+
+}
+.holiday{
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.holi-title{
+    font-size: 60px;
+    font-weight: bold;
+    color: red;
+    font-family: "Inter", sans-serif;
+
+}
+.better-title{
+    font-size: 16px;
+    font-weight: 600;
+    color: red;
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+}
+.categories{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(4, 4, 4);
+    font-family: "Inter", sans-serif;
+}
+.new-year-img{
+    width: 100%;
+    margin: 0px auto;
+}
+.party{
+    /* padding: 100px; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:linear-gradient(90deg, #070211, #faf9fd06) ,url("../images/Vectorrr.png");
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+.item-width{
+    width: 50%;
+    /* background-color: red; */
+    padding: 5%;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.new-year{
+    width: 60%;
+}
