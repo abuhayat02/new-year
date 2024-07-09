@@ -100,3 +100,30 @@
 .new-year{
     width: 60%;
 }
+.party-title{
+    font-family: "Merriweather", serif;
+    font-size: 50px;
+    color: #ffffffc9;
+}
+.btn{
+    background-color: #FF0000;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+}
+.small-title{
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    color: #FFFFFF;
+}
+.items-alingment{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+    margin: 8% 8% 8% 8%;
+    justify-content: center;
+    align-items: center;
+}
